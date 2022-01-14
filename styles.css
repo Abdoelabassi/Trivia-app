@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+    color: #fff;
+    font-family: 'Trebushet MS', Arial;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#game{
+    display: flex;
+}
+
+
+.genre-col{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card{
+    background-color: rgb(32, 40, 116);
+    text-align: center;
+    width: 200px;
+    height: 120px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border: solid yellow 5px;
+    font-size: 100px;
+
+}
+
+.correct-answer{
+    background-color: rgb(179, 57, 13);
+}
+
+.wrong-answer{
+    background-color: red;
+}
+
+.true-button{
+    background-color: green;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.false-button{
+   background-color: red;
+   border-radius: 20px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   -ms-border-radius: 20px;
+   -o-border-radius: 20px;
+}
+
+button{
+    margin: 5px;
+}
